@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    background-color: #007BCA;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+
+.img_logo {
+    height: 35px;
+}
+
+.video_container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.video {
+    border: solid;
+    border-color: #007BCA;
+    border-width: 2px;
+    border-radius: 12px;
+    padding: 3px;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    
+}
+
+.empleado_mes{
+    width: 25%;
+    margin-right: 5px;
+    height: 600px;
+}
+
+.cumpleanos_mes{
+    width: 25%;
+    margin-left: 5px;
+    height: 600px;
+}
+
+.carousel-item {
+    
+    
+}
+
+.carousel-item>img {
+    height: 400px;
+}
+
+.charts {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.irregulares {
+ 
+    
+    width: 650px;
+    height: 300px;
+    box-shadow: 0px 0px 41px 15px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.scrap {
+    
+    width: 600px;
+    height: 300px;
+    box-shadow: 0px 0px 41px 15px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.cpaql {
+    
+    width: 650px;
+    height: 300px;
+    box-shadow: 0px 0px 41px 15px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+   
+}
