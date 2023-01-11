@@ -33,7 +33,7 @@
     border-width: 2px;
     border-radius: 12px;
     padding: 3px;
-    width: fit-content;
+    width: 40%;
     align-items: center;
     text-align: center;
     height: fit-content;
@@ -43,13 +43,13 @@
 .empleado_mes{
     width: 25%;
     margin-right: 5px;
-    height: 600px;
+    height: 15%;
 }
 
 .cumpleanos_mes{
     width: 25%;
     margin-left: 5px;
-    height: 600px;
+    height: 20%;
 }
 
 .carousel-item {
@@ -63,9 +63,10 @@
 
 .charts {
     display: flex;
-    margin-top: 0px;
+    margin-top: 20px;
     justify-content: space-between;
     text-align: center;
+    padding: 3px;
 }
 
 .irregulares {
